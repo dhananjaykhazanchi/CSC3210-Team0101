@@ -1,7 +1,0 @@
-[core]
-	repositoryformatversion = 0
-	filemode = true
-	bare = true
-[remote "origin"]
-	url = git@github.com:Team-0101/CSC3210-Team0101.git
-	fetch = +refs/heads/*:refs/remotes/origin/*
