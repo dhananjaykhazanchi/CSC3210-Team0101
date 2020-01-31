@@ -11,3 +11,5 @@
    svc #0         @Program Termination: wake kernel
 
  .end
+ 
+@Thu's test
