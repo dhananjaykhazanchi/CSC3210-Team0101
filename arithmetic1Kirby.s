@@ -1,10 +1,5 @@
 @arithmetic1 program
 .section .data
-A DWORD 10
-B DWORD 11
-C DWORD 7
-D DWORD 2
-
 .section .text
 .globl _start
 _start:
@@ -16,7 +11,6 @@ _start:
 	mul r3,r4,r3	@multiply C*D, store in C
 	sub r1,r1,r3	@subtract (A+B)-(C*D)=A
 
-	mov r7,#1
-	svc #0
+	svc #0		@Terminate
 .end
 
