@@ -6,7 +6,11 @@ int main(int argc, char**argv) {
 	if(argc >1) {
 		omp_set_num_threads( atoi(argv[1]) );
 	}
+<<<<<<< HEAD
+    #pragma omp parallel 
+=======
 //    #pragma omp parallel 
+>>>>>>> 106f6a98122824b173815f388b0b44ae2009c75a
 {
 	int id =omp_get_thread_num();
 	int numThreads =omp_get_num_threads();
@@ -18,4 +22,8 @@ int main(int argc, char**argv) {
 	}
 }
 printf("\n");
+<<<<<<< HEAD
 return 0;}
+=======
+return 0;}
+>>>>>>> 106f6a98122824b173815f388b0b44ae2009c75a
